@@ -1,11 +1,17 @@
 // TODO: Declare any global variables we need
+let headsCount = 0
+let tailsCount = 0 
 
 
 document.addEventListener('DOMContentLoaded', function () {
     // This is just a sanity check to make sure your JavaScript script is getting loaded
     // You can remove it once you see it in your browser console in the developer tools
-    console.log('Hi')
-
+    document.getElementById('flip').addEventListener('click', function(){
+        console.log('flipped click')
+    })
+    document.getElementById('clear').addEventListener('click', function() {
+        console.log('resetClicked')
+    })
     // TODO: Add event listener and handler for flip and clear buttons
 
     // Flip Button Click Handler
