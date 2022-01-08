@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Clear Button Click Handler
      document.getElementById('clear').addEventListener('click', function() {
         console.log('resetClicked')
-        document.getElementById('message').textContent = 'Let\'s Get Fliping Again'
+        document.getElementById('message').textContent = 'Let\'s Get Flipping Again'
         let total = headsCount + tailsCount
         headsCount = 0
         tailsCount = 0
